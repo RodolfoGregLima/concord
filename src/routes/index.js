@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     //res.json({"concord":"melhor que discord"});
-    res.sendFile('C:/Users/Vinicius/Desktop/concord/src/index.html');
+    res.sendFile(__dirname + "/index.html");
 });
 
 export default router;
